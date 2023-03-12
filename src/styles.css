@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f3f4;
+  position: relative;
+  color: #01113a;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  max-width: 1024px;
+  margin: auto;
+  align-content: center;
+}
+
+/* Navigation Css Starts Here */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+nav h2 {
+  font-size: 25px;
+}
+nav h2 span {
+  color: #4c40f7;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+nav button {
+  padding: 10px;
+}
+
+.social {
+  font-size: 25px;
+}
+/* Navigation Css Ends Here */
+
+/* First Hero Section Starts Here  */
+
+/* First Column Starts Here */
+.hero {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.hero .first-column {
+  width: 60%;
+}
+
+.hero .first-column h1 {
+  flex: 40%;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .first-column h1 span {
+  color: #4c40f7;
+}
+.hero .hello {
+  margin: 0;
+}
+.hero .social {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+/* Second Column Ends here */
+
+.hero .second-column {
+  position: relative;
+  flex: 1;
+  align-items: center;
+  display: grid;
+}
+
+.second-column .hero-img {
+  width: 100%;
+}
+
+.small-card {
+  display: grid;
+  position: absolute;
+  background-color: white;
+  border: 2px solid #4c40f7;
+  border-radius: 10px;
+  padding: 5px;
+  width: 120px;
+  font-size: 12px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+}
+.second-column .card-first {
+  top: 90px;
+  left: 10px;
+}
+.number {
+  color: #4c40f7;
+  font-size: 16px;
+}
+.text {
+  font-size: 10px;
+}
+.second-column .card-second {
+  top: 300px;
+  left: -10px;
+}
+.second-column .card-third {
+  top: 190px;
+  right: 30px;
+}
+
+/* Second Here Sections Start Here */
+
+.second-hero {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.second-hero .first-column {
+  position: relative;
+  display: grid;
+  align-items: center;
+  width: 50%;
+  padding: 0px 50px 50px 0px;
+}
+
+.second-hero .card-first {
+  top: 20px;
+  left: 0px;
+}
+.second-hero .card-second {
+  top: 320px;
+  left: 20px;
+}
+.second-hero .card-third {
+  top: 200px;
+  right: 80px;
+}
+
+.second-hero .hero-img {
+  width: 100%;
+}
+
+.second-hero .second-column {
+  flex: 1;
+}
+.second-hero .second-column h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+/* Second Colums CSS Ends Here */
+
+/* Third Hero Section Css */
+
+.third-hero {
+  width: 100%;
+
+  margin-bottom: 50px;
+}
+
+.third-hero h2 {
+  font-size: 40px;
+}
+.third-hero .card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-hero .card-container .card-details {
+  border: 2px solid #4c40f7;
+  padding: 20px;
+  height: 250px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.4s ease-in-out;
+}
+.third-hero .card-container .card-details:hover {
+  box-shadow: rgba(76, 64, 247, 0.25) 0px 54px 55px,
+    rgba(76, 64, 247, 0.12) 0px -12px 30px, rgba(76, 64, 247, 0.12) 0px 4px 6px,
+    rgba(76, 64, 247, 0.17) 0px 12px 13px, rgba(76, 64, 247, 0.09) 0px -3px 5px;
+}
+
+.third-hero .card-details img {
+  height: 64px;
+  width: 64px;
+  padding-bottom: 0;
+}
+.third-hero h3 {
+  padding: 0;
+  margin: 0;
+}
+/* Third Section Ends Here */
+
+/* Portfolio Section Starts Here */
+
+.portfolio-heading {
+  margin-bottom: 50px;
+}
+.portfolio-heading .option a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Project Item CSS */
+
+.projects {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.item {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.2s ease-in-out;
+}
+
+.item p {
+  color: #4c40f7;
+  margin: 0;
+}
+.item h2 {
+  margin: 0 0 10px 0;
+}
+
+.item:hover {
+  box-shadow: rgba(76, 64, 247, 0.25) 0px 54px 55px,
+    rgba(76, 64, 247, 0.12) 0px -12px 30px, rgba(76, 64, 247, 0.12) 0px 4px 6px,
+    rgba(76, 64, 247, 0.17) 0px 12px 13px, rgba(76, 64, 247, 0.09) 0px -3px 5px;
+}
+.one {
+  background-color: white;
+}
+.two {
+  background-color: white;
+}
+.three {
+  background-color: white;
+}
+.four {
+  background-color: white;
+}
+
+.item .details {
+  padding: 20px;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+}
+.item img {
+  /* padding: 20px 20px 0px 20px; */
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Project Section Ends Here */
+
+/* Footer Starts here  */
+
+.contact {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 10px, rgba(240, 46, 170, 0.3) 0px 20px,
+    rgba(240, 46, 170, 0.2) 0px 30px;
+}
+.contact .header {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-contact {
+  width: 40%;
+}
+.contact .header h2 {
+  font-size: 72px;
+  line-height: 1.16667;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.hello {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #4c40f7;
+}
+.des {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.77778;
+}
+
+.img-container {
+  display: grid;
+  align-items: center;
+}
+
+.img-container img {
+  width: 100%;
+  height: 250px;
+}
+/* Contact form starts here */
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form .about {
+  flex: 1;
+}
+.contact-form form {
+  width: 468px;
+}
+
+.input-icons {
+  background-color: #f7f7f6;
+  height: 60px;
+  padding: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-field {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: #111029;
+}
+.input-icons .fa {
+  position: absolute;
+  right: 0;
+}
+.contact-form span {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.contact-form i {
+  width: 24px;
+  height: 30px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.about div {
+  height: 50px;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #111029;
+  height: 100%;
+}
+.text {
+  height: 160px;
+  align-items: flex-start;
+}
+
+.text .fa {
+  position: absolute;
+  right: 0;
+}
+
+.contact-form button {
+  min-width: 240px;
+  height: 72px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background: #4c40f7;
+  color: #fff;
+}
+button .fa-solid {
+  padding-left: 10px;
+}
+form {
+}
+
+/* COntact ends here  */
+
+/* Footer Starts here  */
+.last {
+  width: 100vw;
+  background-color: #01113a;
+  padding: 300px 0 0 0;
+  position: absolute;
+  bottom: -220px;
+  z-index: -1;
+  color: white;
+  margin: 0;
+  align-items: center;
+}
+.last .container {
+  width: 100vw;
+  max-width: 1024px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.last a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
+.quote {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.last h2 {
+  width: 100%;
+  font-size: 40px;
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  text-align: center;
+}
+.last h1 {
+  margin: 0;
+}
+
+.custom-shape-divider-top-1676391645 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1676391645 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 96px;
+}
+
+.custom-shape-divider-top-1676391645 .shape-fill {
+  fill: #f2f3f4;
+}
+
+/* overall */
+
+button {
+  color: white;
+  padding: 10px;
+  background-color: #4c40f7;
+  width: 140px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+button:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #4c40f7;
+}
+.purple {
+  color: #4c40f7;
+}
